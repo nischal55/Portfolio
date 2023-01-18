@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    margin-top: 3.5rem;
+    float: right;
+    padding-right: 10rem;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    font-family: 'Opens Sans',sans-serif;
+}
+.active, a:hover{
+    border-bottom: 2px white solid;
+}
+.home{
+    background-image: url('home.jpg');
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+    
+}
+.main{
+    background-color: black;
+    opacity: 60%;
+    width: 100%;
+    height: 40rem;
+}
+h2{
+    color: white;
+    position: absolute;
+    left:8rem;
+    font-family: 'Opens Sans',sans-serif;
+}
+.para{
+    color: white;
+    position:absolute;
+    top: 11rem;
+    left: 8rem;
+    font-family: 'Opens Sans',sans-serif;
+    line-height: 28px;
+}
+.txt2{
+    font-size: 3.7rem;
+}
+.para-in{
+    width: 70%;
+    margin-top: 25px;
+    font-size: 14px;
+}
+.btn{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    margin-top: 45px;
+    cursor: pointer;
+    
+}
+#btn{
+    margin-left: 30px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.services{
+    height: 35rem;
+    width: 100%;
+}
+.head-service{
+    padding-top: 5rem;
+    font-family: 'Opens sans',sans-serif;
+    color: rgb(85, 83, 83);
+    font-size: 28px;
+    width: 20%;
+   
+}
+.main-service{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.first,.second,.third{
+    height: 18rem;
+    width: 18%;
+    box-shadow: 0px 2px 2px 2px grey;
+    border-radius: 10px;
+    
+}
+#serviceImg{
+    margin-left: 70px;
+    margin-top: 2rem;
+}
+#paraService{
+    width: 80%;
+    margin:25px;
+    text-align: center;
+    
+}
+.project{
+    background-color: rgb(43, 42, 42);
+    height: 35rem;
+    width: 100%;
+}
+.main-project{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+.one,.two,.three,.four{
+    width: 18%;
+    height: 18rem;
+    box-shadow: 0px 2px 2px 2px rgb(22, 22, 22);
+    border-radius: 10px;
+}
+#code{
+    padding: 10px;
+    background-color: rgb(35, 182, 42);
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+}
+#code a{
+    text-decoration: none;
+    border: none;
+}
+.contact{
+    height: 45rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+form{
+    margin-top: 3.5rem;
+    font-family: 'Opens sans',sans-serif;
+}
+input{
+    width: 40rem;
+    height: 2.5rem;
+    padding-left: 2rem;
+}
+#submit{
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(0, 70, 223);
+    color: aliceblue;
+    font-family: 'Opens sans',sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-right: 2rem;
+}
+footer{
+    height: 8rem;
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+    color: white;
+   
+
+}
+.main-footer{
+    padding-top: 3rem;
+    margin-left: 30rem;
+}
+
